@@ -1,155 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Welcome to With-Calli</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/w3.css" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-  body{width:950px; margin : 0 auto;}
-   a { text-decoration: none;}
-   li { list-style : none;}
-   .w3-myfont {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-   }
-   .mySlides {display:none}
-   .w3-left, .w3-right, .w3-badge {cursor:pointer} 
-   .w3-badge {height:13px;width:13px;padding:0}
-</style>
-</head>
-<body class="w3-content w3-margin-top" style="max-width:950px">
-<header class="w3-margin-top w3-contaner">
-   <span class="w3-opennav w3-xlarge">&#9776;</span>
-   <a href="index.html"><span class="w3-text-indigo w3-text-shadow w3-myfont" style="font-size:28px;"> With Calli </span></a>
-   <h5> 캘리와 더불어 꿈을 드려요</h5>
-</header>
-<nav>
-    <!--.navi>ul>li*5>a[href="sub$$.html"]{menu_$$}-->
-  <div class="navi">
-	<ul class="w3-bar w3-indigo w3-center">
-		<li class="w3-bar-item w3-button"><a href="sub01.html" class="w3-padding-large">쇼핑</a></li>
-		<li class="w3-bar-item w3-button"><a href="sub02.html" class="w3-padding-large">드림그래퍼</a></li>
-		<li class="w3-bar-item w3-button"><a href="sub03.html" class="w3-padding-large">교육</a></li>
-		<li class="w3-bar-item w3-button"><a href="sub04.html" class="w3-padding-large">패키지</a></li>
-		<li class="w3-bar-item w3-button"><a href="sub05.html" class="w3-padding-large">커뮤니티</a></li>
-	</ul>
-  </div>
-</nav>
-<div class="w3-cell-row">
-<section class="w3-left w3-container w3-margin-top w3-margin-bottom" style="max-width:700px" >
-	<article class="media" class="w3-row w3-large w3-margin-top"><h3>온라인 교육</h3></article>
-	<video class="w3-col s6 w3-border" src="./media/media1.mp4" autoplay="True" controls="True">
-	</video>
-	<video class="w3-col s6 w3-border" src="./media/media2.mp4" autoplay="True" controls="True">
-	</video>
-    <br>
-    <br>
-	<article class="calli w3-margin-top" ><h3 class="w3-text-indigo w3-large">작품</h3></article>
-	<!-- .calli01>img[src="../images/photo$.jpg"]*5 -->
-	<div class="calli01" >
-	  <div class="w3-row">
-		<img class="w3-col s3 w3-border w3-margin" src="./images/photo1.jpg" alt="작품1" />
-		<img class="w3-col s3 w3-border w3-margin" src="./images/photo2.jpg" alt="작품2" />
-		<img class="w3-col s3 w3-border w3-margin" src="./images/photo3.jpg" alt="작품3" />
-	  </div>
-	  <br>
-		<div class="w3-row">
-			<img class="w3-col s3 w3-border w3-margin" src="./images/photo4.jpg" alt="작품4" style="height: 120px;"/>
-			<img class="w3-col s3 w3-border w3-margin" src="./images/photo5.jpg" alt="작품5" style="height: 120px;" />
-		</div>
-	</div>
-	<br>
-	<article class="package"> 
-	<h3 class="w3-large w3-container">패키지</h3>
-	<!--table[border="1"]>tr>th{제목$$}*3+(tr>td{교육$$}*3)*3 -->
-	<table class="w3-table-all w3-hoverable">
-		<tr class="w3-indigo">
-			<th>패키지</th>
-			<th>내용</th>
-			<th>금액</th>
-			<tr>
-				<td>족자1</td>
-				<td>재료 및 교육비</td>
-				<td>50000</td>
-			</tr>
-			<tr>
-				<td>액자만들기</td>
-				<td>재료 및 교육비</td>
-				<td>70000</td>
-			</tr>
-			<tr>
-				<td>LED무드등</td>
-				<td>재료 및 교육비</td>
-				<td>100000</td>
-			</tr>
-		</tr>
-	</table>
-	</article>
-</section>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./week05/css/w3.css">
+    <title>Welcome to Seoyoung's web</title>
+    <style>
+        body{
+            max-width: 950px;
+            margin:auto;
+        }
+        section{
+            display: flex;
+        }
+        article{
+            flex: 3;
+        }  
+        aside{
+            flex:1;
+        }
+        nav{
+            flex:1;
+        }
+        *{font-family:"맑은 고딕",Arial, Helvetica, sans-serif ;}
+        header h1{display:inline;}
+        ul {list-style:none;}
+        a {text-decoration: none;}
+        nav ul {
+                text-align: center; border-top: 3px solid black;
+                border-bottom: 3px solid black ; padding: 15px 10px;
 
-<aside class="right" class="w3-container w3-cell">
- <div class="login"  >
-            <h4 class="w3-text-indigo">Log In</h4>
-            <form action="#" >
-                                아이디  :<input class="w3-input1" type="text" name="id"/> <br />
-                               패스워드:<input class="w3-input1" type="password" name="pass"/> <br /><br />
-                <input class="w3-btn w3-teal" type="submit" value="로그인" />
-                <input class="w3-btn w3-teal" type="reset" value="초기화" /><br />
-                <a href="register.jsp" target="_blank" id="register">회원가입</a>
-                <a href="#" id="forgot">비밀번호분실</a>
-            </form>
+        }
+        nav ul li {
+                display:inline;
+                padding: 15px 20px;
+                letter-spacing: 5px;
+        }
+        nav ul :hover{
+                background-color: rgba(255, 192, 19, 0.836);
+        }
+        nav li a:hover {
+                color:white
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="myself2-2.html"><img src="./images/춘식이(수정).jpg" alt="logo" width="100" height="70"></a>
+        <h1 style="font-weight:650;">Seoyoung's site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="w3-left w3-container w3-margin-top w3-margin-bottom" style="max-width:700px" >
+        <div class="calli01" >
+            <div class="w3-row">
+                <article class="media" class="w3-row w3-large w3-margin-top"><h3>🖤In Art gallery</h3></article>
+                <video controls autoplay loop src="./media/Art gallery.mp4" width="95%" height=95%"></video>
+            </div>
+            <br>
+            <div class="w3-row">
+                <article class="music" class="calli w3-margin-top"><h3>🎵My favorite music</h3></article>
+                <audio src="./media/water.mp3" controls></audio>
+            </div>
+            <br>          
         </div>
-   <div class="info">
-     <div id="aside-list-1"  >
-            <h5 class="w3-text-indigo">즐겨찾기</h5>
-                    <ul>
-                        <li><a href="http://kostat.go.kr">통계청</a></li>
-                        <li><a href="http://bicdata.com">빅데이터</a></li>
-                        <li><a href="http://www.r-project.org/">R-project</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                    </ul>
-            <a href="bookmark.html">북마크 보기 </a>
+    </section>
+
+    <aside class="right" class="w3-container w3-cell">
+    <div id="login">
+        <h4 class="w3-text-black" style="font-weight:650;">Log In</h4>
+        <form action="#" >
+                          아이디  :<input class="w3-input1" type="text" name="id"/> <br/>
+                          패스워드:<input class="w3-input1" type="password" name="pass"/> <br/>
+            <input class="w3-button w3-round-xlarge w3-sand" type="submit" value="로그인"/>
+            <input class="w3-button w3-round-xlarge w3-sand" type="reset" value="초기화"/><br/><br>
+        </form>
+    </div>
+    <div class="info">
+        <div id="link">
+               <h5 class="w3-text-black" style="font-weight:900;">즐겨찾기</h5>
+                       <ul>
+                           <li><a href="http://www.donga.ac.kr" target="_blank">동아대학교</a><br></li>
+                           <li><a href="https://www.google.co.kr/" target="_blank">Google</a><br></li>
+                           <li><a href="https://www.w3schools.com/"target="_self">w3schools</a></li>
+                           <li><a href="https://github.com/" target="_self">github</a></li>
+                       </ul>
+           </div>
+           <div id="post">
+              <h5 class="w3-text-black" style="font-weight:900;">최근 게시물</h5>
+                       <ul>
+                           <li><a href="#">서울여행 1박2일</a></li>
+                           <li><a href="#">해운대 밤바다</a></li>
+                           <li><a href="#">맛집 탐방</a></li>
+                       </ul>
+            </div>
+       </div>
+    </aside>
+    
+    <div id="profile">
+        <article class="package"> 
+            <h3 class="w3-large w3-container">💁Seoyoung profile</h3>
+            <table border="1">
+                <tr>
+                    <th>일자</th>
+                    <th>내용</th>
+                    <th>세부사항</th>
+                </tr>
+                <tr>
+                    <td>현재</td>
+                    <td>동아대학교 경영정보학과 재학</td>
+                    <td>2학년</td>
+                </tr>
+                <tr>
+                    <td>21.6.18~21.7.25</td>
+                    <td>부산광역시 주최 공모전 출전</td>
+                    <td>장려상 수상</td>
+                </tr>
+                <tr>
+                    <td>20.5.25~20.7.3</td>
+                    <td>어깨동무 활동참여</td>
+                    <td>멘티</td>
+                </tr>
+            </table>
+        </article>
+    </div>
+
+    <footer  class="w3-dark-grey w3-margin-top"  style="height:150px;">
+        <div class="w3-row">
+            <div class="w3-col s6 w3-container">
+                <h5 id=contact> Contact me</h5>
+                <ul>
+                  <li>Phone: 010 7302 ****</li>
+                  <li>Email: <a href="#">blackeye1108@naver.com</a></li>
+                  <li><a href="https://github.com/LSeoyoung">My Github Page</a></li>
+                </ul>
+                
+            </div>
+            <div class="w3-col s6  w3-container">
+                <h5> Follow me</h5>
+                <a href="https://www.instagram.com/_tjyom/"><i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:white"></i></a>
+                <br /><br/>
+                Copyright (c) 2021 💁Seoyoung <br/>
+            </div>
         </div>
-        <div id="aside-list-2" >
-                    <h4 class="w3-text-indigo">최근 글</h4>
-                    <ul>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                        <li><a href="#">데이터</a></li>
-                    </ul>
-         </div>
-   </div>
-</div>
-</aside>
-<footer  class="w3-dark-grey w3-margin-top"  style="height:150px;">
-	<div class="w3-row"> <!-- grid 를 이용하여 작성하였음  -->
-		<div class="w3-col s4  w3-container" >
-			<h5> Contact Us</h5>
-			<ul>
-			  <li>Phone: 010 5280 ****</li>
-			  <li>Email: <a href="#" title="Email Us">sense64@gmail.com</a></li>
-			  <li><a href="https://sense64.github.io/web01/">https://sense64.github.io/web01/</a></li>
-			</ul>
-			
-		</div>
-		<div class="w3-col s4  w3-container" >
-			<h5> Follow Us</h5>
-			<a href="#"><i class="fa fa-instagram" style="font-size:30px;color:white"></i></a>
-			<br /><br/>
-			Copyright (c) 2020 SeonwonHwang <br/>
-		</div>
-		
-		<div class="w3-col s4 w3-container" >
-			<h5> About Us</h5>
-			  My Site is optimized for learning, testing, and training.
-			  <a href="#" class="btn btn-block btn-base btn-icon fa-check"><span>Try it now</span></a>
-			
-		</div>
-	 </div>
-</footer>
+      </footer>
 </body>
 </html>
+
+
